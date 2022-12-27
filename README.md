@@ -6,7 +6,19 @@ The purpose of this analysis is to visualize and quantify residential segregatio
 
 ## Getting Started
 
+Boston has recently become infamous for its racism and segregation. In a national survey commissioned by the Globe in 2017, Black people ranked Boston as the least welcoming city to people of color \[1\]. Racial inequalities have persisted in Boston despite the city’s advances in other areas like sports, higher education, biotech, and medicine. Many believe this is due to white citizens’ prejudice that erases Black communities from the city center and forces them into neighborhoods with underfunded schools, lack of transportation, and other crucial resources for economic advancement. According to the Globe, the median net worth of non-immigrant black households in the Boston area is $8 compared to $250,000 for white households. The inequities and disparities in the City of Boston are astounding, especially given the city’s reputation for liberalism and progressivism.
 
+As a long-term resident of the city, I can attest to the striking contrast of race and socio-economic status between neighborhood blocks. Almost every neighborhood in Boston has a stereotypical long-term resident (e.g. the North End ~ Italian, South Boston/Charlestown/Neponset ~ Irish-Catholic, East Boston ~ Latino/Hispanic, Roxbury/Dorchester ~ Black, West Roxbury ~ White). These stereotypes have remained true well throughout my life, my mother's life and her mother's life. Unfortunately, the only thing that has changed in my life time is the influx of affluent white young professionals into once lower-income neighborhoods and newly developed sections of the city like South Boston, the Seaport District, Ink Block, and along Dorchester Avenue, mainly.  
+
+In the short time that I have resided in Brooklyn, New York, I am astounded by the level of integration within my community and those across the city. I have been aware of the residential segration in Boston for some time now but seeing the contrast in New York City and having a newly found ability to investigate spatial trends leveraging open source data, has motivated me to quantify the residential segregation in Boston and conduct a comparitive analysis to New York City. 
+
+## Methods
+
+### Visualization
+
+### Quantifying Residential Segregation
+
+### Statistical Analysis
 
 ### Prerequisites
 
@@ -53,7 +65,7 @@ pip install us
 ```
 
 
-## Outputs & Results - WIP
+## Outputs & Results
 
 
 
