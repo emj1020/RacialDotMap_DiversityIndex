@@ -1,0 +1,6 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore checkouts
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
