@@ -10,7 +10,7 @@ Boston has recently become infamous for its racism and segregation. In a nationa
 
 As a long-term resident of the city, I can attest to the striking contrast of race and socio-economic status between neighborhood blocks. Almost every neighborhood in Boston has a stereotypical long-term resident (e.g. the North End ~ Italian, South Boston/Charlestown/Neponset ~ Irish-Catholic, East Boston ~ Latino/Hispanic, Roxbury/Dorchester ~ Black, West Roxbury ~ White). These stereotypes have remained true for generations. However, Boston has more recently experienced an influx of affluent white young professionals into once lower-income neighborhoods and newly developed sections of the city like South Boston, the Seaport District, Ink Block, and along Dorchester Avenue, mainly.  
 
-In the short time that I have resided in Brooklyn, New York, I am astounded by the level of integration within my community and those across the city. I have been aware of the residential segration in Boston for some time now but seeing the contrast in New York City and having a newly found ability to investigate spatial trends leveraging open source data, has motivated me to quantify the residential segregation in Boston and conduct a comparitive analysis to New York City. 
+In the short time that I have resided in Brooklyn, New York, I am astounded by the level of integration within my community and those across the city. I have been aware of the residential segration in Boston for some time now but seeing the contrast in New York City and having a newly found ability to investigate spatial trends leveraging open source data, I am motivated to quantify the residential segregation in Boston and conduct a comparitive analysis to New York City. 
 
 ## Methods
 
@@ -37,7 +37,7 @@ The Shannon Diversity Index, also known as the Shannon-Wiener Index, is a well-k
 
 The diversity index, normally denoted as $H$, is defined as:
 
-$$ H = -\sum_ p_i\ln (p_i). $$
+$$H = -\sum_ p_i \ln(p_i).$$
 
 ### Statistical Analysis
 
