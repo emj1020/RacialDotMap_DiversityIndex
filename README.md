@@ -20,14 +20,14 @@ To visualize communities across Boston I will use a racial dot map, which has be
 
 The racial dot map is created using census block group population counts for the following eight racial groups defined by the U.S. Census Bureau \[2\],
 
-    * Hispanic
-    * White alone, non-Hispanic
-    * Black or African American alone, non-Hispanic
-    * American Indian and Alaska Native alone, non-Hispanic
-    * Asian alone, non-Hispanic
-    * Native Hawaiian and Other Pacific Islander alone, non-Hispanic
-    * Some Other Race alone, non-Hispanic
-    * Multiracial, non-Hispanic
+    1. Hispanic
+    2. White alone, non-Hispanic
+    3. Black or African American alone, non-Hispanic
+    4. American Indian and Alaska Native alone, non-Hispanic
+    5. Asian alone, non-Hispanic
+    6. Native Hawaiian and Other Pacific Islander alone, non-Hispanic
+    7. Some Other Race alone, non-Hispanic
+    8. Multiracial, non-Hispanic
 
 in addition to the polygon geometry of the given census block groups. The output is 1 random point geometries (longitude and latitude coordinates) for each individual within their given census block group and racial demographic. This method was derived from u/kyledevyay's post in r/Python reddit thred \[4\].
 
