@@ -35,7 +35,7 @@ in addition to the polygon geometry of the given census block groups. The output
 
 The Shannon Diversity Index, also known as the Shannon-Wiener Index, is a well-known metric in the biology word as it has been used to measure the diversity of species in a community \[3\]. I will use this metric to measure the racial diversity of census block groups within the two major cities, Boston and New York. 
 
-The diversity index, normally denoted as $H$, is defined as: $$H = - \sum_ p_i \ln{p_i}.$$
+The diversity index, normally denoted as $H$, is defined as: $$H = - \sum_{} p_i \ln{p_i}.$$
 
 ### Statistical Analysis
 
