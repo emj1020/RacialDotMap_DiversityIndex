@@ -8,7 +8,7 @@ The purpose of this analysis is to visualize and quantify residential segregatio
 
 Boston has recently become infamous for its racism and segregation. In a national survey commissioned by the Globe in 2017, Black people ranked Boston as the least welcoming city to people of color \[1\]. Racial inequalities have persisted in Boston despite the city’s advances in other areas like sports, higher education, biotech, and medicine. Many believe this is due to white citizens’ prejudice that erases Black communities from the city center and forces them into neighborhoods with underfunded schools, lack of transportation, and other crucial resources for economic advancement. According to the Globe, the median net worth of non-immigrant black households in the Boston area is $8 compared to $250,000 for white households. The inequities and disparities in the City of Boston are astounding, especially given the city’s reputation for liberalism and progressivism.
 
-As a long-term resident of the city, I can attest to the striking contrast of race and socio-economic status between neighborhood blocks. Almost every neighborhood in Boston has a stereotypical long-term resident (e.g. the North End ~ Italian, South Boston/Charlestown/Neponset ~ Irish-Catholic, East Boston ~ Latino/Hispanic, Roxbury/Dorchester ~ Black, West Roxbury ~ White). These stereotypes have remained true well throughout my life, my mother's life and her mother's life. Unfortunately, the only thing that has changed in my life time is the influx of affluent white young professionals into once lower-income neighborhoods and newly developed sections of the city like South Boston, the Seaport District, Ink Block, and along Dorchester Avenue, mainly.  
+As a long-term resident of the city, I can attest to the striking contrast of race and socio-economic status between neighborhood blocks. Almost every neighborhood in Boston has a stereotypical long-term resident (e.g. the North End ~ Italian, South Boston/Charlestown/Neponset ~ Irish-Catholic, East Boston ~ Latino/Hispanic, Roxbury/Dorchester ~ Black, West Roxbury ~ White). These stereotypes have remained true generations. However, Boston has more recently experienced an influx of affluent white young professionals into once lower-income neighborhoods and newly developed sections of the city like South Boston, the Seaport District, Ink Block, and along Dorchester Avenue, mainly.  
 
 In the short time that I have resided in Brooklyn, New York, I am astounded by the level of integration within my community and those across the city. I have been aware of the residential segration in Boston for some time now but seeing the contrast in New York City and having a newly found ability to investigate spatial trends leveraging open source data, has motivated me to quantify the residential segregation in Boston and conduct a comparitive analysis to New York City. 
 
@@ -16,7 +16,24 @@ In the short time that I have resided in Brooklyn, New York, I am astounded by t
 
 ### Visualization
 
+To visualize communities across Boston I will use a racial dot map, which has been documented as the best method to visualize the racial composition of a geographical area \[5\]. 
+
+The racial dot map is created using census block group population counts for the following eight racial groups defined by the U.S. Census Bureau \[2\],
+
+    * Hispanic
+    * White alone, non-Hispanic
+    * Black or African American alone, non-Hispanic
+    * American Indian and Alaska Native alone, non-Hispanic
+    * Asian alone, non-Hispanic
+    * Native Hawaiian and Other Pacific Islander alone, non-Hispanic
+    * Some Other Race alone, non-Hispanic
+    * Multiracial, non-Hispanic
+
+in addition to the polygon geometry of the given census block groups. The output is 1 random point geometries (longitude and latitude coordinates) for each individual within their given census block group and racial demographic. This method was derived from u/kyledevyay's post in r/Python reddit thred \[4\].
+
 ### Quantifying Residential Segregation
+
+
 
 ### Statistical Analysis
 
