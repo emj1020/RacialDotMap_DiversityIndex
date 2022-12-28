@@ -1,0 +1,19 @@
+=============================================================================================================
+  TABLE INFO
+=============================================================================================================
+
+ID: DECENNIALPL2010.P1
+Title: RACE
+
+=============================================================================================================
+  NOTES
+=============================================================================================================
+
+Source: U.S. Census Bureau, 2010 Census.
+
+NOTE: For information on confidentiality protection, nonsampling error, and definitions, see <a href="http://www.census.gov/prod/cen2010/pl94-171.pdf">http://www.census.gov/prod/cen2010/pl94-171.pdf</a>
+
+NOTE: Change to the 
+				<a href="http://www.census.gov/rdo/pdf/CA_errata.pdf">California,</a><a href="http://www.census.gov/rdo/pdf/CT_errata.pdf">Connecticut,</a><a href="http://www.census.gov/rdo/pdf/MS_errata.pdf">Mississippi,</a><a href="http://www.census.gov/rdo/pdf/NH_errata.pdf">New Hampshire,</a><a href="http://www.census.gov/rdo/pdf/VA_errata.pdf">Virginia,</a> and
+				<a href="http://www.census.gov/rdo/pdf/WA_errata.pdf">Washington</a> P. L. 94-171 Summary Files as delivered.
+
