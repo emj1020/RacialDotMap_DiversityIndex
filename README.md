@@ -33,6 +33,22 @@ in addition to the polygon geometry of the given census block groups. The output
 
 ### Quantifying Residential Segregation
 
+#### 70 - 25 Method
+The 70-25 model was derived from a [2020 report](https://cecr.ed.psu.edu/sites/default/files/Demography_Report_FINAL_7.24.20.pdf) published by Beyond Test Scores Project and Center for Education and Civil Rights \[6\], in which researchers define segregation in Massachusetts schools.
+
+        "According to the 70-25 model, a school is racially diverse when no single racial group accounts
+        for more than 70 percent of the total population and at least 25 percent of students in the
+        school are white."
+    
+Using this model, the researchers were able to label Massachusetts schools into three main categories:
+
+          - Intensely Segregated non-white (e.g. more than 70% of population is non-white)
+          - Intensely Segregated white (e.g. more than 70% of population is white)
+          - 70-25 diverse (e.g. population satisfies the 70-25 model).
+          
+I will use this methodology to categorize Boston's 25 main neighborhoods in my [descriptive analysis notebook](/Scripts/01_BOS_BG&nbhood_descriptive_analysis.ipynb) and a graphical representation in the [outputs & results section](#Output & Results).
+
+#### Shannon Diversity Index
 The Shannon Diversity Index, also known as the Shannon-Wiener Index, is a well-known metric in the biology word as it has been used to measure the diversity of species in a community \[3\]. I will use this metric to measure the racial diversity of census block groups within the two major cities, Boston and New York. 
 
 The diversity index, normally denoted as $H$, is defined as: $$H = - \sum_{} p_i \ln{p_i},$$ where $p_i$ is the proportion of the population with race $i$. The higher the diversity index, the more diverse a population is. A diversity of index of zero indicates a homogenous population with only one race group present and therefore a population with no diversity.
@@ -97,20 +113,6 @@ My initial descriptive analysis showed that:
 * Nearly 50% of neighborhoods are considered segregated using the 70-25 model, as seen in the figure below.
 
 ![](Outputs/neighborhood_diversity.png)
-
-The 70-25 model was derived from a [2020 report](https://cecr.ed.psu.edu/sites/default/files/Demography_Report_FINAL_7.24.20.pdf) published by Beyond Test Scores Project and Center for Education and Civil Rights, in which researchers define segregation in Massachusetts schools.
-
-        "According to the 70-25 model, a school is racially diverse when no single racial group accounts
-        for more than 70 percent of the total population and at least 25 percent of students in the
-        school are white."
-    
-Using this model, the researchers were able to label Massachusetts schools into three main categories:
-
-          - Intensely Segregated non-white (e.g. more than 70% of population is non-white)
-          - Intensely Segregated white (e.g. more than 70% of population is white)
-          - 70-25 diverse (e.g. population satisfies the 70-25 model).
-          
-I used the same methodology to categorize Boston's neighborhoods. 
 
 ## Acknowledgments
 
