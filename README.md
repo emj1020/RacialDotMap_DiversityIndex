@@ -106,6 +106,8 @@ pip install us
 
 \[5\] Stepinski, T. F., & Dmowska, A. (2019). Imperfect melting pot–Analysis of changes in diversity and segregation of US urban census tracts in the period of 1990–2010. Computers, Environment and Urban Systems, 76, 101-109. Retrieved from, https://doi.org/10.1016/j.compenvurbsys.2019.04.004.
 
+\[6\] Schneider, J., Piazza, P., Carey, A. J., and White, R. S. (2020). School integration in Massachusetts: Racial diversity and state accountability. Beyond Test Scores Project and Center for Education and Civil Rights. Retrieved from, https://cecr.ed.psu.edu/sites/default/files/Demography_Report_FINAL_7.24.20.pdf
+
 ### Data
 
 U.S. Census Bureau. (2020). 2013-2020 American Community Survey 5-year Hispanic or Latino Origin by Race.  Retrieved from, https://data.census.gov/table?q=b03002&tid=ACSDT5Y2020.B03002
