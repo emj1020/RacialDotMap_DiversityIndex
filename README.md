@@ -92,7 +92,7 @@ pip install us
 
 My initial descriptive analysis showed that:
 
-* Out of the 25 neighborhoods in Boston, 80% have a singular race group making up the majority ($\geq 50%$ of it's population. Of the neighborhoods with majority race groups, 85% have a majority white population (68% of all Boston neighborhoods).
+* Out of the 25 neighborhoods in Boston, 80% have a singular race group making up the majority ( $\geq 50%$ of it's population. Of the neighborhoods with majority race groups, 85% have a majority white population (68% of all Boston neighborhoods).
        
 * Nearly 50% of neighborhoods are considered segregated using the 70-25 model, as seen in the figure below.
 
