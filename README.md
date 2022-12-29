@@ -92,11 +92,26 @@ pip install us
 
 My initial descriptive analysis showed that:
 
-* Out of the 25 neighborhoods in Boston, 80% have a singular race group making up the majority ( $\geq 50%$ of it's population. Of the neighborhoods with majority race groups, 85% have a majority white population (68% of all Boston neighborhoods).
+* Out of the 25 neighborhoods in Boston, 80% have a singular race group making up the majority ( $\geq 50%$) of it's population. Of the neighborhoods with majority race groups, 85% have a majority white population (68% of all Boston neighborhoods).
        
 * Nearly 50% of neighborhoods are considered segregated using the 70-25 model, as seen in the figure below.
 
 ![](Outputs/neighborhood_diversity.png)
+
+The 70-25 model was derived from a [2020 report](https://cecr.ed.psu.edu/sites/default/files/Demography_Report_FINAL_7.24.20.pdf) published by Beyond Test Scores Project and Center for Education and Civil Rights, in which researchers define segregation in Massachusetts schools.
+
+        "According to the 70-25 model, a school is racially diverse when no single racial group accounts
+        for more than 70 percent of the total population and at least 25 percent of students in the
+        school are white."
+    
+Using this model, the researchers were able to label Massachusetts schools into three main categories:
+
+          - Intensely Segregated non-white (e.g. more than 70% of population is non-white)
+          - Intensely Segregated white (e.g. more than 70% of population is white)
+          - 70-25 diverse (e.g. population satisfies the 70-25 model).
+          
+I used the same methodology to categorize Boston's neighborhoods. 
+
 ## Acknowledgments
 
 ### References
