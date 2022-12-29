@@ -46,7 +46,7 @@ Using this model, the researchers were able to label Massachusetts schools into 
           - Intensely Segregated white (e.g. more than 70% of population is white)
           - 70-25 diverse (e.g. population satisfies the 70-25 model).
           
-I will use this methodology to categorize Boston's 25 main neighborhoods in my [descriptive analysis notebook](/Scripts/01_BOS_BG&nbhood_descriptive_analysis.ipynb) and a graphical representation in the [outputs & results section](#Output & Results).
+I will use this methodology to categorize Boston's 25 main neighborhoods in my [descriptive analysis notebook](/Scripts/01_BOS_BG&nbhood_descriptive_analysis.ipynb) and a graphical representation in the [outputs & results section](#Outputs-&-Results).
 
 #### Shannon Diversity Index
 The Shannon Diversity Index, also known as the Shannon-Wiener Index, is a well-known metric in the biology word as it has been used to measure the diversity of species in a community \[3\]. I will use this metric to measure the racial diversity of census block groups within the two major cities, Boston and New York. 
