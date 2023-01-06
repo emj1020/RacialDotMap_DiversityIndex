@@ -106,14 +106,18 @@ pip install us
 
 ## Outputs & Results
 
-My initial descriptive analysis showed that:
+My initial [descriptive analysis](/Scripts/02_CensusAPI_TemporalRacialAnalysis.ipynb) showed that in 2020:
 
-* Out of the 25 neighborhoods in Boston, 80% have a singular race group making up the majority ( $\geq$ 50%) of it's population. Of the neighborhoods with majority race groups, 85% have a majority white population (68% of all Boston neighborhoods).
+* 80% of Boston neighborhoods have a singular race group making up the majority of it's population (e.g. $\geq$ 50% of people).
+    * Of these neighborhoods, 85% have a majority white population (68% of all Boston neighborhoods have a majoirty white population).
        
 * Nearly 50% of neighborhoods are considered segregated using the 70-25 model, as seen in the figure below.
 
 ![](Outputs/neighborhood_diversity.png)
 
+A racial dot map of Boston in 2020 shows the racial demographics across the city.
+
+![](Outputs/2020BostonDotMap.png)
 ## Acknowledgments
 
 ### References
