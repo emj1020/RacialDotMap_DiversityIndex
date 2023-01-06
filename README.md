@@ -111,13 +111,11 @@ My initial [descriptive analysis](/Scripts/02_CensusAPI_TemporalRacialAnalysis.i
 * 80% of Boston neighborhoods have a singular race group making up the majority of it's population (e.g. $\geq$ 50% of people).
     * Of these neighborhoods, 85% have a majority white population (68% of all Boston neighborhoods have a majoirty white population).
        
-* Nearly 50% of neighborhoods are considered segregated using the 70-25 model, as seen in the figure below.
+* Nearly 50% of neighborhoods are considered segregated using the 70-25 model, as seen in the left figure below.
 
-![](Outputs/neighborhood_diversity.png)
+![Boston neighborhood diversity](Outputs/neighborhood_diversity.png) ![racial composition 2020](Outputs/2020BostonDotMap.png)
 
-A racial dot map of Boston in 2020 shows the racial demographics across the city.
 
-![](Outputs/2020BostonDotMap.png)
 ## Acknowledgments
 
 ### References
