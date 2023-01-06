@@ -115,8 +115,8 @@ My initial [descriptive analysis](/Scripts/02_CensusAPI_TemporalRacialAnalysis.i
 
 
 <table><tr>
-<td> <img src="Outputs/neighborhood_diversity.png" alt="Neighborhood Diversity Boston 2020" style="width: 500px;"/> </td>
-<td> <img src="Outputs/2020BostonDotMap.png" alt="Racial Dot Map Boston 2020" style="width: 500px;"/> </td>
+<td> <img src="Outputs/neighborhood_diversity.png" alt="Neighborhood Diversity Boston 2020" style="width: 550px;"/> </td>
+<td> <img src="Outputs/2020BostonDotMap.png" alt="Racial Dot Map Boston 2020" style="width: 550px;"/> </td>
 </tr></table>
 
     
