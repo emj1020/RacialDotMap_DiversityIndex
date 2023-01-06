@@ -113,7 +113,7 @@ My initial [descriptive analysis](/Scripts/02_CensusAPI_TemporalRacialAnalysis.i
        
 * Nearly 50% of neighborhoods are considered segregated using the 70-25 model, as seen in the left figure below.
 
-![Boston neighborhood diversity](Outputs/neighborhood_diversity.png "title-1" =45%x) ![racial composition 2020](Outputs/2020BostonDotMap.png "title-2" =45%x)
+|![Boston neighborhood diversity](Outputs/neighborhood_diversity.png)|![racial composition 2020](Outputs/2020BostonDotMap.png)|
 
 ## Acknowledgments
 
