@@ -106,6 +106,8 @@ pip install us
 
 ## Outputs & Results
 
+### Boston
+
 My initial [descriptive analysis](/Scripts/02_CensusAPI_TemporalRacialAnalysis.ipynb) showed that in 2020:
 
 * 80% of Boston neighborhoods have a singular race group making up the majority of it's population ($\geq$ 50%)
@@ -120,7 +122,7 @@ My initial [descriptive analysis](/Scripts/02_CensusAPI_TemporalRacialAnalysis.i
 
 Boston block groups in 2020 had an average Shannon Diversity Index of 0.906 while in 2013 block groups had an averge diversity index of 0.858. Since there was redistricting in 2020, there are different boundaries for block groups across the two years. Therefore I rasterized the block group diversity index shapefiles to calculate the percent difference of the overlapping geographies regardless of the block group boundaries to visualize which sections of the city got more or less diverse over the years without losing any block groups. Doing so we see that Boston's Diversity Index increased +20.58% on average from 2013 to 2020. However, this metric is greatly impacted by large positive outliers. The median shows us that 50% of the pixels in our percent change raster are above/below +1.44% which indicates that more than half of Boston's geographies got more diverse.
 
-[]!(Outputs/BostonDI_PercChange.png)
+![](Outputs/BostonDI_PercChange.png)
     
 ## Acknowledgments
 
