@@ -108,7 +108,7 @@ pip install us
 
 ### Boston
 
-My initial [descriptive analysis](/Scripts/02_CensusAPI_TemporalRacialAnalysis.ipynb) showed that in 2020:
+My initial [descriptive analysis](/Scripts/01_BOS_descriptive_analysis.ipynb) shows that in 2020:
 
 * 80% of Boston neighborhoods have a singular race group making up the majority of it's population ($\geq$ 50%)
     * Of these neighborhoods, 85% have a majority white population (i.e. 68% of all Boston neighborhoods have a majoirty white population)
@@ -120,9 +120,19 @@ My initial [descriptive analysis](/Scripts/02_CensusAPI_TemporalRacialAnalysis.i
 <td> <img src="Outputs/2020BostonDotMap.png" alt="Racial Dot Map Boston 2020" style="width: 550px;"/> </td>
 </tr></table>
 
-Boston block groups in 2020 had an average Shannon Diversity Index of 0.906 while in 2013 block groups had an averge diversity index of 0.858. Since there was redistricting in 2020, there are different boundaries for block groups across the two years. Therefore I rasterized the block group diversity index shapefiles to calculate the percent difference of the overlapping geographies regardless of the block group boundaries to visualize which sections of the city got more or less diverse over the years without losing any block groups. Doing so we see that Boston's Diversity Index increased +20.58% on average from 2013 to 2020. However, this metric is greatly impacted by large positive outliers. The median shows us that 50% of the pixels in our percent change raster are above/below +1.44% which indicates that more than half of Boston's geographies got more diverse.
+My [temporal analysis](/Scripts/02_BOS_Temporal_Analysis.ipynb) shows that Boston block groups in 2020 had an average Shannon Diversity Index of 0.906 while in 2013 block groups had an averge diversity index of 0.858. Since there was redistricting in 2020, there are different boundaries for block groups across the two years. Therefore I rasterized the block group diversity index shapefiles to calculate the percent difference of the overlapping geographies regardless of the block group boundaries to visualize which sections of the city got more or less diverse over the years without losing any block groups. Doing so we see that Boston's Diversity Index increased +20.58% on average from 2013 to 2020. However, this metric is greatly impacted by large positive outliers. The median shows us that 50% of the pixels in our percent change raster are above/below +1.44% which indicates that more than half of Boston's geographies got more diverse.
 
 ![](Outputs/BostonDI_PercChange.png)
+
+### Boston versus New York City
+
+Despite my initial hypothesis, New York City is not statistically more or less diverse than Boston. After calculating the diversity index of NYC block groups in 2020, I ran a t-test with the null hypothesis that the two cities have the same average block group diversity index. This t-test returned a p-value greater than 0.05 which indicates that we cannot reject our null hypothesis.
+
+I also ran a t-test for each borough in NYC versus Boston which returned the same result, there is no statistical difference. Below you will see the maps of each geography and it's average block group diversity index.
+
+![](Outputs/2020ComparitiveAnalysis_DiversityIndex.png)
+
+## Next Steps
     
 ## Acknowledgments
 
