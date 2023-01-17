@@ -46,7 +46,7 @@ Using this model, the researchers were able to label Massachusetts schools into 
           - Intensely Segregated white (e.g. more than 70% of population is white)
           - 70-25 diverse (e.g. population satisfies the 70-25 model).
           
-I will use this methodology to categorize Boston's 25 main neighborhoods in my [descriptive analysis notebook](/Scripts/01_BOS_BG&nbhood_descriptive_analysis.ipynb) and a graphical representation in the [outputs & results section](#Outputs-&-Results).
+I will use this methodology to categorize Boston's 25 main neighborhoods in my [descriptive analysis notebook](/Scripts/01_BOS_descriptive_analysis.ipynb) and a graphical representation in the [outputs & results section](#Outputs-&-Results).
 
 #### Shannon Diversity Index
 The Shannon Diversity Index, also known as the Shannon-Wiener Index, is a well-known metric in the biology word as it has been used to measure the diversity of species in a community \[3\]. I will use this metric to measure the racial diversity of census block groups within the two major cities, Boston and New York. 
@@ -108,17 +108,19 @@ pip install us
 
 My initial [descriptive analysis](/Scripts/02_CensusAPI_TemporalRacialAnalysis.ipynb) showed that in 2020:
 
-* 80% of Boston neighborhoods have a singular race group making up the majority of it's population (e.g. $\geq$ 50% of people).
-    * Of these neighborhoods, 85% have a majority white population (68% of all Boston neighborhoods have a majoirty white population).
+* 80% of Boston neighborhoods have a singular race group making up the majority of it's population ($\geq$ 50%)
+    * Of these neighborhoods, 85% have a majority white population (i.e. 68% of all Boston neighborhoods have a majoirty white population)
        
-* Nearly 50% of neighborhoods are considered segregated using the 70-25 model, as seen in the left figure below.
-
+* Nearly 50% of Boston neighborhoods are considered segregated using the 70-25 model, as seen in the left figure below
 
 <table><tr>
 <td> <img src="Outputs/neighborhood_diversity.png" alt="Neighborhood Diversity Boston 2020" style="width: 600px;"/> </td>
 <td> <img src="Outputs/2020BostonDotMap.png" alt="Racial Dot Map Boston 2020" style="width: 550px;"/> </td>
 </tr></table>
 
+Boston block groups in 2020 had an average Shannon Diversity Index of 0.906 while in 2013 block groups had an averge diversity index of 0.858. Since there was redistricting in 2020, there are different boundaries for block groups across the two years. Therefore I rasterized the block group diversity index shapefiles to calculate the percent difference of the overlapping geographies regardless of the block group boundaries to visualize which sections of the city got more or less diverse over the years without losing any block groups. Doing so we see that Boston's Diversity Index increased +20.58% on average from 2013 to 2020. However, this metric is greatly impacted by large positive outliers. The median shows us that 50% of the pixels in our percent change raster are above/below +1.44% which indicates that more than half of Boston's geographies got more diverse.
+
+[]!(Outputs/BostonDI_PercChange.png)
     
 ## Acknowledgments
 
