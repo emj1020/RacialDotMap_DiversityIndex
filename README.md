@@ -133,6 +133,10 @@ I also ran a t-test for each borough in NYC versus Boston which returned the sam
 ![](Outputs/2020ComparitiveAnalysis_DiversityIndex.png)
 
 ## Next Steps
+
+Regardless of the results found in this analysis, I strongly believe that my lived experience, in regards to the diversity and residential segregation in both Boston and NYC, holds truth and is the lived experience of many other citizens across both cities. Perhaps residential segregration should not only be quantified using the Shannon Diversity Index but in addition to other measurements such as cell phone mobility patterns, the 70-25 model, socio-economic variables, and autospatial correlation.
+
+Residential segregation is the result of historical housing discrimination, redlining, and strategic planning and infrastructure used to isolate poor people of color into under-served communities. Cities all across America fell victim to these discriminatory policies and practices and this may make a comparative analysis difficult.
     
 ## Acknowledgments
 
